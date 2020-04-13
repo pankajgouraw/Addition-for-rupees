@@ -1,0 +1,139 @@
+  <!DOCTYPE html>
+<html>
+   <head>
+      <title>ClassTeacher</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="js/enableDragMobile.js"></script>
+   </head>
+   <body>
+      <!-- <body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;"> -->
+      <div class="wrapper">
+         <div id="header">
+            <div class="logo logoWrapper">
+               <h3 id="headerText"></h3>
+               <a href="main.html"> <img src="img/logo.png"> </a>
+               
+            </div>
+         </div>
+         <div id="innerWrapper" class="animated fadeIn">
+          <div class="carryContainer">
+                    <p>Add the carry</p>
+                    <p class="carriedValue">
+                      <span class="dragCarry">0</span>
+                    </p>  
+                    <p class="carriedValue">
+                      <span class="dragCarry">1</span>
+                     
+                    </p>           
+                    <p class="carriedValue">
+                      <span class="dragCarry">2</span>
+                     
+                    </p>            
+                    <p class="carriedValue">
+                      <span class="dragCarry">3</span>
+                    
+                    </p>           
+                     <p class="carriedValue">
+                      <span class="dragCarry">4</span>
+                    
+                    </p>           
+                     <p class="carriedValue">
+                      <span class="dragCarry">5</span>
+                     
+                    </p>           
+                     <p class="carriedValue">
+                      <span class="dragCarry">6</span>
+                    
+                    </p>            
+                    <p class="carriedValue">
+                      <span class="dragCarry">7</span>
+                    
+                    </p>            
+                    <p class="carriedValue">
+                      <span class="dragCarry">8</span>
+                    
+                    </p>      
+                    <p class="carriedValue">
+                      <span class="dragCarry">9</span>
+                     
+                    </p>           
+          </div>
+          <div class="operations">
+            <div class="questionContainer">
+              <div class="question border">
+                <div class="questBox">
+                <div class="placeValueContainer"></div>
+                  
+                  <p><span class="sign signRs">Rs.</span><span id="firstNo"></span></p>
+                  <p><span class="sign">+</span><span class="sign signRS">Rs.</span><span id='secNo'></span>
+                  </p>
+                  <div class="ansContainer">
+             <!--   <p class="drop"></p>
+                    <p class="drop"></p>
+                    <p class="drop"></p>
+                    <p class="drop"></p>
+                    <p class="drop"></p>
+                    <p class="drop"></p> -->
+                  </div>
+              </div>
+              </div>
+              <div class="options border">
+                 <p><span class="drag">0</span></p>
+                 <p><span class="drag">.</span></p>
+                 <p><span class="drag">1</span></p>
+                 <p><span class="drag">2</span></p>
+                 <p><span class="drag">3</span></p>
+                 <p><span class="drag">4</span></p>
+                 <p><span class="drag">5</span></p>
+                 <p><span class="drag">6</span></p>
+                 <p><span class="drag">7</span></p>
+                 <p><span class="drag">8</span></p>
+                 <p><span class="drag">9</span></p>
+              </div>
+  
+            </div>
+            <div class="resulNav">
+            <div class="resultContainer border">
+              <div class="output"></div>
+              <div class="output"></div>
+              <div class="output"></div>
+              <div class="output"></div>
+              <div class="output"></div>
+              <div class="output"></div>
+              <div class="output"></div>
+              <div class="output"></div>
+              <div class="output"></div>
+              <div class="output"></div>
+            </div>
+            <div class="nav">
+                <button id="check"> CHECK </button>
+                <button id="next"> NEXT </button>
+                <button id="reload"> RELOAD </button>
+                <button id="showAns"> SHOW ANSWER </button>
+                <button id="clearCarry"> CLEAR CARRY </button>
+                <button id="reset"> RESET</button>
+            </div>
+          </div>
+          </div>  <!-- operation end here -->
+
+          </div><!--innerwrapper end here -->
+        </div>  <!--wrapper end here -->
+        <div class="oops">
+          <img src='img/oops.png' />
+          <h1>try again</h1>
+        </div>  
+
+              <div class="wellDone">
+          <img src='img/congrates.png' />
+          <h1>Well Done</h1>
+        </div>
+      <script type="text/javascript" src="data/data.js"></script>
+      <script type="text/javascript" src="js/script.js"></script>
+   </body>
+</html>
+
